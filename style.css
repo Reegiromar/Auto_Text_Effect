@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2a2a72;
+    font-family: 'Mulish', sans-serif;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+div {
+    position: absolute;
+    bottom: 100px;
+    background: rgba(0, 0, 0, .1);
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+input {
+    width: 50px;
+    padding: 5px;
+    font-size: 18px;
+    background-color: #2a2a72;
+    border: none;
+    text-align: center;
+    color: #fff;
+}
+
+input:focus {
+    outline: none;
+}
+/* reegiromar */
